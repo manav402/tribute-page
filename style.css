@@ -68,11 +68,11 @@ a{
 }
 .headtxt{
     /* border:2px solid white; */
-    margin-top:10px;
+    margin-top:20px;
     /* border-bottom: 2px solid rgb(95, 95, 99); */
 }
 .txt{
-    width:80%;
+    width:80vw;
     height:auto;
     margin-left:80px;
     border-right: 2px solid grey;
@@ -106,7 +106,7 @@ a{
     bottom: 0;
     /* right:2px; */
     /* left:200px; */
-    right:3px;
+    /* right:3px; */
 }
 .back img{
     width:50px;
