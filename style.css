@@ -5,11 +5,14 @@
     color: white;
 }
 body{
-    height: 200vh;
+    height: 120vh;
 }
 li{
     /* decoration: none; */
-    list-style: none;
+      list-style: none;
+    font-size: 24px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     display: inline-block;
     padding-left:40px;
 }
@@ -35,7 +38,7 @@ a{
     /* flex-direction: row; */
     /* justify-content: space-between; */
     /* position:sticky; */
-    border:2px solid green;
+    border:2px solid #7e7e7e;
     margin-top:10px;
     position: sticky;
     top: 0;
@@ -45,8 +48,8 @@ a{
     width:200px;
     height:200px;
     margin:auto;
-    border:2px solid yellow;
-    margin-top:10px;
+    /* border:2px solid yellow; */
+    margin-top:30vh;
     /* position:sticky; */
     /* top:0px; */
 }
@@ -54,32 +57,58 @@ a{
     display:block;
     width:200px;
     margin:auto;
-    border:2px solid red;
-    margin-top:10px;
+    /* border:2px solid red; */
+    margin-top:30px;
 }
 .timeline h3{
     text-align:center;
 }
+#head1{
+    margin-top:30vh;
+}
 .headtxt{
-    border:2px solid white;
+    /* border:2px solid white; */
     margin-top:10px;
+    /* border-bottom: 2px solid rgb(95, 95, 99); */
 }
 .txt{
     width:80%;
     height:auto;
     margin-left:80px;
-    border:2px solid grey;
-    margin-top:10px;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    padding-left: 34px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    margin-top: 27px;
 }
 .wiki{
-    border:2px solid purple;
-    margin-top:10px;
+    border:2px solid #444444;
+    margin-top:77px;
 }
-.footer{
+.wiki a{
+    text-decoration:underline;
+    color:#7474e5;
+}
+.wiki p{
+    font-size:20px;
+}
+/* .footer{
     border:2px solid orange;
     margin-top:10px;
-}
+} */
 .back{
-    border:2px solid brown;
+    /* border:2px solid brown; */
     margin-top:10px;
+    display: inline-block;
+    position:sticky;
+    bottom: 0;
+    /* right:2px; */
+    /* left:200px; */
+    right:3px;
+}
+.back img{
+    width:50px;
+    height:auto;
 }
